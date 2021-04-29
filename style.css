@@ -1,0 +1,68 @@
+h1 {
+  text-align: center;
+  color: peru;
+  font-size: 200%;
+  font-family: "Light";
+}
+h2 {
+  font-family: "Light";
+}
+
+div {
+  font-family: "Bunya";
+}
+
+body {
+  background: url(https://pt-blog.ru/wp-content/uploads/2017/08/2-PP2-HD.66d1452e.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: white;
+  font-size: 130%;
+  position: absolute;
+  width: 99%;
+  top: 12%;
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    45deg,
+    #3994c5 0%,
+    #3336de 50%,
+    #e67e29 100%
+  );
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  font-size: 24px;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+  transition: 0.8s;
+}
+a:hover {
+  box-shadow: 0 0 0 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
+}
+
+@font-face {
+  font-family: "Light";
+  src: url(fonts/BebasNeue\ Light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bunya";
+  src: url(fonts/Gilroy-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

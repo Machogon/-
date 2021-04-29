@@ -1,0 +1,116 @@
+.Osebe {
+  font-size: 150%;
+  font-family: "Grill";
+  color: white;
+}
+.School {
+  font-size: 150%;
+  font-family: "Grill";
+  color: white;
+}
+
+h2 {
+  font-size: 300%;
+  text-align: center;
+  font-family: "Light";
+  color: white;
+}
+
+a {
+  font-size: 150%;
+  color: rgb(3, 27, 92);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background: url(https://pt-blog.ru/wp-content/uploads/2017/08/2-PP2-HD.66d1452e.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.css-adaptive {
+  float: right;
+  margin: 0 0 5px 5px;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.gorod {
+  font-size: 100%;
+  font-family: "Grill";
+  color: rgb(35, 124, 226);
+}
+
+.plaz {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  text-shadow: red 0 0 10px;
+  font-family: "Bunya";
+}
+.plaz:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 100%;
+  background-image: linear-gradient(
+    45deg,
+    #3994c5 0%,
+    #2124cc 50%,
+    #06088b 100%
+  );
+  border-radius: 40px;
+  z-index: -1;
+  content: "";
+}
+.plaz:hover::before {
+  animation: go-animation 0.6s 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes go-animation {
+  0% {
+    width: 10%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: "Light";
+  src: url(../fonts/BebasNeue\ Light.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Grill";
+  src: url(../fonts/ofont.ru_Gill\ Sans.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bunya";
+  src: url(../fonts/Gilroy-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+figcaption {
+  color: white;
+}
+
+.hu2 {
+  margin-right: 23%;
+}
+
+.up {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
